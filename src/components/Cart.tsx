@@ -15,7 +15,9 @@ function Cart() {
         setQuantity((prev)=> prev + parseInt(e.target.value));
     }
     const totalCost = 5 * quantity;
+
     return <>
+    <div style={{ display: 'flex'}}>
         <button onClick={(e) =>handleClick(e)} value='1'>
             Add 1 Item
         </button>
@@ -25,7 +27,8 @@ function Cart() {
         <button onClick={(e) =>handleClick(e)} value={-quantity}>
             Reset 
         </button>
-        <p>Total Cost {totalCost}</p>
+    </div>
+    <p>Total Cost {totalCost}</p>
     </>
 }
 

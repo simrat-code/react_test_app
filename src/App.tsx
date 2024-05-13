@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 
 import Cart from './components/Cart';
+import { BundleCartButtons } from './components/CustomCart';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <BundleCartButtons />
         <Cart />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
