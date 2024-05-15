@@ -2,6 +2,12 @@
 
 https://lively-glacier-039f01d1e.5.azurestaticapps.net/
 
+# URL reference
+
+https://www.simplilearn.com/tutorials/reactjs-tutorial/login-page-in-reactjs
+https://clerk.com/blog/building-a-react-login-page-template
+
+
 
 # Getting Started with Create React App
 
